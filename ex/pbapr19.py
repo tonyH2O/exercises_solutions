@@ -105,7 +105,8 @@ class Ticket:
                 elif ticket == "kid":  
                     filled_space += 1
                     total_kids += 1
-                elif ticket == "End":                                                                                                                               break
+                elif ticket == "End":
+                    break
             percent_full = filled_space * 100 / free_space
             print(f"{film} - {percent_full:.2f}% full.")
             film = input()
